@@ -1,6 +1,7 @@
 # Face-Morphing
 
 -------------
-![Morphed Video](output.gif)
+<img src='output.gif' width='300'>
+
 
 -------------
