@@ -1,1 +1,6 @@
-# face-morphing
+# Face-Morphing
+
+-------------
+![Morphed Video](output.gif)
+
+-------------
