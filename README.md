@@ -75,7 +75,7 @@ This project presents a sophisticated algorithm for creating a smooth transition
 ### Additional Notes:
 - **Affine Transformation**: A key part of this project. It's the mathematical process of transforming images so that triangles in one image map to corresponding triangles in another.
 - **Manual vs. Automatic Landmark Detection**: While `dlib` is used for automated detection, there is an option to manually adjust or add landmarks for better accuracy.
-- 
+
 This project is a complex blend of image processing techniques, primarily focusing on image warping and blending to achieve a morphing effect. The use of facial landmarks and triangulation ensures that the morphing looks natural and smooth.
 
 
