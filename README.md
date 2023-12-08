@@ -7,6 +7,23 @@
 ## Overview
 This project presents a sophisticated algorithm for creating a smooth transition between two portrait photos, for example, morphing one person's face into another. The transformation is achieved by warping and blending the pixels of the start and end images. 
 
+This project is a complex blend of image processing techniques, primarily focusing on image warping and blending to achieve a morphing effect. The use of facial landmarks and triangulation ensures that the morphing looks natural and smooth.
+
+
+```python
+import cv2
+from matplotlib import pyplot as plt
+import numpy as np
+import scipy
+from PIL import Image
+
+# Load, process, and display images...
+# Landmark detection and processing...
+# Triangulation and affine transformations...
+# Blending and output...
+```
+
+
 ## Features
 - **Input**: Two portrait photos.
 - **Output**: A series of "in-between" images creating a smooth transition from the start to the end image.
@@ -77,21 +94,7 @@ This project presents a sophisticated algorithm for creating a smooth transition
 - **Affine Transformation**: A key part of this project. It's the mathematical process of transforming images so that triangles in one image map to corresponding triangles in another.
 - **Manual vs. Automatic Landmark Detection**: While `dlib` is used for automated detection, there is an option to manually adjust or add landmarks for better accuracy.
 
-This project is a complex blend of image processing techniques, primarily focusing on image warping and blending to achieve a morphing effect. The use of facial landmarks and triangulation ensures that the morphing looks natural and smooth.
 
-
-```python
-import cv2
-from matplotlib import pyplot as plt
-import numpy as np
-import scipy
-from PIL import Image
-
-# Load, process, and display images...
-# Landmark detection and processing...
-# Triangulation and affine transformations...
-# Blending and output...
-```
 
 ## Converting Output to Video 🎥
 The script utilizes `ffmpeg` to convert the sequence of images into a smooth transition video.
