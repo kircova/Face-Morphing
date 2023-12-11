@@ -1,7 +1,5 @@
 # Facial Morphing Project 🧒🔄🧑
 -------------
-
-
 <img src='output.gif' width='300'>
 
 -------------
