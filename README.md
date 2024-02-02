@@ -1,9 +1,7 @@
 # Facial Morphing Project 🧒🔄🧑
 
 ## Overview
-This project presents a sophisticated algorithm for creating a smooth transition between two portrait photos, for example, morphing one person's face into another. The transformation is achieved by warping and blending the pixels of the start and end images. 
-
-This project is a complex blend of image processing techniques, primarily focusing on image warping and blending to achieve a morphing effect. The use of facial landmarks and triangulation ensures that the morphing looks natural and smooth.
+This project presents a algorithm for creating a smooth transition between two portrait photos, for example, morphing one person's face into another. The transformation is achieved by warping and blending the pixels of the start and end images. 
 
 
 ```python
