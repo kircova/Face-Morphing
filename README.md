@@ -1,5 +1,8 @@
 # Facial Morphing Project 🧒🔄🧑
 
+<img src="output1.gif" width="300" height="300" />
+
+
 ## Overview
 This project presents a algorithm for creating a smooth transition between two portrait photos, for example, morphing one person's face into another. The transformation is achieved by warping and blending the pixels of the start and end images. 
 
